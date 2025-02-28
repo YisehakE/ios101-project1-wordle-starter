@@ -66,6 +66,7 @@ class BoardController: NSObject,
     // START YOUR CODE HERE
     
     cell.clearLetter()
+    cell.set(style: .initial)
     // END YOUR CODE HERE
   }
 }
